@@ -2,7 +2,7 @@
 #include<string.h>
 #include<stdlib.h>
 using namespace std; 
-class Telefon{ 
+class Car{ 
  private : 
  string nomi,avtosaloni,diskasi; 
  int yili; 
@@ -19,7 +19,7 @@ class Telefon{
    cout<<"Yili: "<<yili<<endl; 
    cout<<"Diskasi: "<<diskasi<<endl; 
    cout<<"Baloni: "<<baloni<<endl; 
-   cout<<"Saloni: "<<saloni<<endl; 
+   cout<<"Pozitsiyasi: "<<saloni<<endl; 
    cout<<"Narxi: "<<narxi<<endl; 
   }; 
   void input(){ 
@@ -31,7 +31,7 @@ class Telefon{
    cout<<"Yili: ";cin>>yili; 
    cout<<"Diskasi: ";cin>>diskasi; 
    cout<<"Baloni: ";cin>>baloni; 
-   cout<<"Saloni: ";cin>>saloni; 
+   cout<<"Pozitsiyasi: ";cin>>saloni; 
    cout<<"Narxi: ";cin>>narxi;
    cout<<endl; 
   }; 
@@ -54,7 +54,7 @@ void qidir1(string d){
 }; 
 int main() 
 { 
- Telefon t[100]; 
+ Car t[100]; 
  int N;cout<<"Mashina sonni kriting";cin>>N;  
  for(int i=0;i<N;i++) 
  { 
